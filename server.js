@@ -18,9 +18,18 @@ mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PW}@clus
 
 const userSchema = new mongoose.Schema({
     id: String,
-    name: String,
-    email: String,
-    password: String,
+    name: {
+        type: String,
+        require:true
+    },
+    email: {
+        type: String,
+        require:true
+    },
+    password: {
+        type: String,
+        require:true
+    },
     entries: {type: Number, default: 0},
     joined: {type: Date, default: Date.now()}
 });
