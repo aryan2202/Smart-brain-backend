@@ -17,14 +17,11 @@ You will need to have Node.js and npm (Node Package Manager) installed on your c
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/kaivalya9936/smartbrain.git
+git clone https://github.com/aryan2202/Smart-brain-backend.git
 ```
 
 Navigate to the root directory of the project:
 
-```
-cd smartbrain_api
-```
 
 ### Install the required dependencies:
 
